@@ -1,0 +1,293 @@
+CRITICAL - 2021-04-16 12:17:14 --> Undefined variable: query
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Views\apps\kpi.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Acer\\D...', 41, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\View\View.php(246): include('C:\\Users\\Acer\\D...')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Common.php(1119): CodeIgniter\View\View->render('apps/kpi', Array, true)
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Home.php(20): view('apps/kpi', Array)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#9 {main}
+CRITICAL - 2021-04-16 12:38:32 --> Undefined variable: unit
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Views\apps\kpi.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Acer\\D...', 49, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\View\View.php(246): include('C:\\Users\\Acer\\D...')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Common.php(1119): CodeIgniter\View\View->render('apps/kpi', Array, true)
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Home.php(20): view('apps/kpi', Array)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#9 {main}
+CRITICAL - 2021-04-16 17:32:23 --> Trying to get property 'bidang' of non-object
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Views\apps\kpi.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Users\\Acer\\D...', 76, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\View\View.php(246): include('C:\\Users\\Acer\\D...')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Common.php(1119): CodeIgniter\View\View->render('apps/kpi', Array, true)
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Home.php(32): view('apps/kpi', Array)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#9 {main}
+CRITICAL - 2021-04-16 17:33:24 --> Array to string conversion
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Views\apps\kpi.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\Users\\Acer\\D...', 78, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\View\View.php(246): include('C:\\Users\\Acer\\D...')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Common.php(1119): CodeIgniter\View\View->render('apps/kpi', Array, true)
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Home.php(32): view('apps/kpi', Array)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#9 {main}
+CRITICAL - 2021-04-16 21:27:33 --> Undefined variable: x
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Views\apps\kpi.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Acer\\D...', 95, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\View\View.php(246): include('C:\\Users\\Acer\\D...')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Common.php(1119): CodeIgniter\View\View->render('apps/kpi', Array, true)
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Home.php(32): view('apps/kpi', Array)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#9 {main}
+CRITICAL - 2021-04-16 21:47:18 --> Too few arguments to function App\Controllers\Menghitung::index(), 0 passed in C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php on line 919 and exactly 1 expected
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Menghitung->index()
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menghitung))
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#5 {main}
+CRITICAL - 2021-04-16 21:48:57 --> Undefined variable: all_data
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Menghitung.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Acer\\D...', 23, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Menghitung->index('1')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menghitung))
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#6 {main}
+CRITICAL - 2021-04-16 21:49:04 --> Undefined variable: data
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Views\apps\kpi.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Acer\\D...', 75, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\View\View.php(246): include('C:\\Users\\Acer\\D...')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Common.php(1119): CodeIgniter\View\View->render('apps/kpi', Array, true)
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Menghitung.php(22): view('apps/kpi', Array)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Menghitung->index('1')
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menghitung))
+#6 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#9 {main}
+CRITICAL - 2021-04-16 21:49:06 --> Undefined variable: data
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Views\apps\kpi.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Acer\\D...', 75, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\View\View.php(246): include('C:\\Users\\Acer\\D...')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Common.php(1119): CodeIgniter\View\View->render('apps/kpi', Array, true)
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Menghitung.php(22): view('apps/kpi', Array)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Menghitung->index('1')
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menghitung))
+#6 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#9 {main}
+CRITICAL - 2021-04-16 22:06:25 --> Cannot use object of type stdClass as array
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\View\View.php(246): include()
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Common.php(1119): CodeIgniter\View\View->render('apps/menghitung', Array, true)
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Menghitung.php(24): view('apps/menghitung', Array)
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Menghitung->index('1')
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menghitung))
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#8 {main}
+CRITICAL - 2021-04-16 22:06:42 --> Undefined variable: g
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Views\apps\menghitung.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Acer\\D...', 58, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\View\View.php(246): include('C:\\Users\\Acer\\D...')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Common.php(1119): CodeIgniter\View\View->render('apps/menghitung', Array, true)
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Menghitung.php(24): view('apps/menghitung', Array)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Menghitung->index('1')
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menghitung))
+#6 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#9 {main}
+CRITICAL - 2021-04-16 22:20:43 --> Undefined property: stdClass::$pey_performance_indicator
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Views\apps\menghitung.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\Acer\\D...', 59, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\View\View.php(246): include('C:\\Users\\Acer\\D...')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Common.php(1119): CodeIgniter\View\View->render('apps/menghitung', Array, true)
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Menghitung.php(30): view('apps/menghitung', Array)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Menghitung->index('1')
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menghitung))
+#6 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#9 {main}
+CRITICAL - 2021-04-16 22:22:11 --> Undefined property: stdClass::$key_performance_indicator
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Views\apps\menghitung.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\Acer\\D...', 59, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\View\View.php(246): include('C:\\Users\\Acer\\D...')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Common.php(1119): CodeIgniter\View\View->render('apps/menghitung', Array, true)
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Menghitung.php(30): view('apps/menghitung', Array)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Menghitung->index('1')
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menghitung))
+#6 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#9 {main}
+CRITICAL - 2021-04-16 22:36:52 --> Trying to access array offset on value of type null
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Menghitung.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\Acer\\D...', 31, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Menghitung->index('1')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menghitung))
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#6 {main}
+CRITICAL - 2021-04-16 22:39:04 --> Undefined variable: score
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Menghitung.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Acer\\D...', 37, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Menghitung->index('1')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menghitung))
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#6 {main}
+CRITICAL - 2021-04-16 22:44:37 --> Undefined offset: 3
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Menghitung.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\Acer\\D...', 29, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Menghitung->index('1')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menghitung))
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#6 {main}
+CRITICAL - 2021-04-16 22:45:25 --> Undefined offset: 3
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Menghitung.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\Acer\\D...', 29, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Menghitung->index('1')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menghitung))
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#6 {main}
+CRITICAL - 2021-04-16 22:46:31 --> Undefined offset: 3
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Menghitung.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\Acer\\D...', 31, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Menghitung->index('1')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menghitung))
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#6 {main}
+CRITICAL - 2021-04-16 22:49:22 --> Undefined offset: 3
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Menghitung.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\Acer\\D...', 30, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Menghitung->index('1')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menghitung))
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#6 {main}
+CRITICAL - 2021-04-16 22:50:28 --> Undefined offset: 3
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Menghitung.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\Acer\\D...', 32, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Menghitung->index('1')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menghitung))
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#6 {main}
+CRITICAL - 2021-04-16 23:12:14 --> array_sum() expects parameter 1 to be array, float given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_sum() exp...', 'C:\\Users\\Acer\\D...', 54, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Menghitung.php(54): array_sum(0.68181818181818)
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Menghitung->index('1')
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menghitung))
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#7 {main}
+CRITICAL - 2021-04-16 23:13:52 --> array_sum() expects parameter 1 to be array, float given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_sum() exp...', 'C:\\Users\\Acer\\D...', 52, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Menghitung.php(52): array_sum(11.5)
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Menghitung->index('1')
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menghitung))
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#7 {main}
+CRITICAL - 2021-04-16 23:27:15 --> Array to string conversion
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Menghitung.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\Users\\Acer\\D...', 28, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Menghitung->index('1')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menghitung))
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#6 {main}
+CRITICAL - 2021-04-16 23:29:21 --> Undefined variable: cek
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Menghitung.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Acer\\D...', 76, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Menghitung->index('1')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menghitung))
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#6 {main}
+CRITICAL - 2021-04-16 23:29:24 --> Undefined variable: cek
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Menghitung.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Acer\\D...', 76, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Menghitung->index('1')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menghitung))
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#6 {main}
+CRITICAL - 2021-04-16 23:38:16 --> Undefined variable: d
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Views\apps\menghitung.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Acer\\D...', 110, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\View\View.php(246): include('C:\\Users\\Acer\\D...')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Common.php(1119): CodeIgniter\View\View->render('apps/menghitung', Array, true)
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Menghitung.php(84): view('apps/menghitung', Array)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Menghitung->index('1')
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menghitung))
+#6 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#9 {main}
+CRITICAL - 2021-04-16 23:51:34 --> Call to undefined function form_open_multipart()
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\View\View.php(246): include()
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Common.php(1119): CodeIgniter\View\View->render('apps/kpi', Array, true)
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Home.php(30): view('apps/kpi', Array)
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#8 {main}
+CRITICAL - 2021-04-16 23:51:48 --> Call to undefined function form_open_multipart()
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\View\View.php(246): include()
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Common.php(1119): CodeIgniter\View\View->render('apps/kpi', Array, true)
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Home.php(30): view('apps/kpi', Array)
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#8 {main}
+CRITICAL - 2021-04-16 23:52:12 --> Call to undefined function form_open_multipart()
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\View\View.php(246): include()
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Common.php(1119): CodeIgniter\View\View->render('apps/kpi', Array, true)
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Home.php(30): view('apps/kpi', Array)
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#8 {main}
+CRITICAL - 2021-04-16 23:55:55 --> Undefined variable: his
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Add.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Acer\\D...', 27, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Add->index()
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Add))
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#6 {main}
+CRITICAL - 2021-04-16 23:58:34 --> Undefined variable: h
+#0 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Views\apps\kpi.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\Acer\\D...', 98, Array)
+#1 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\View\View.php(246): include('C:\\Users\\Acer\\D...')
+#2 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Common.php(1119): CodeIgniter\View\View->render('apps/kpi', Array, true)
+#3 C:\Users\Acer\Downloads\NBS.co.id\nbs\app\Controllers\Home.php(31): view('apps/kpi', Array)
+#4 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#5 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\Acer\Downloads\NBS.co.id\nbs\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Acer\Downloads\NBS.co.id\nbs\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\Acer\\D...')
+#9 {main}

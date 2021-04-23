@@ -1,0 +1,8 @@
+CRITICAL - 2020-10-12 10:32:24 --> Undefined property: App\Controllers\Home::$adminmodel
+#0 D:\Program Files\xampp\htdocs\opc-smart\app\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Program File...', 39, Array)
+#1 D:\Program Files\xampp\htdocs\opc-smart\system\CodeIgniter.php(919): App\Controllers\Home->AdminLogin()
+#2 D:\Program Files\xampp\htdocs\opc-smart\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Program Files\xampp\htdocs\opc-smart\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\xampp\htdocs\opc-smart\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\Program Files\xampp\htdocs\opc-smart\system\Commands\Server\rewrite.php(34): require_once('D:\\Program File...')
+#6 {main}

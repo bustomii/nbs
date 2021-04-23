@@ -1,0 +1,11 @@
+CRITICAL - 2021-04-13 01:00:56 --> Undefined property: stdClass::$tgl_cuti
+#0 D:\Program Files\xampp\htdocs\Laprint\app\Views\answer\q4.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Program File...', 62, Array)
+#1 D:\Program Files\xampp\htdocs\Laprint\system\View\View.php(246): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\Laprint\system\Common.php(1119): CodeIgniter\View\View->render('answer/q4', Array, true)
+#3 D:\Program Files\xampp\htdocs\Laprint\app\Controllers\Home.php(55): view('answer/q4', Array)
+#4 D:\Program Files\xampp\htdocs\Laprint\system\CodeIgniter.php(919): App\Controllers\Home->q4()
+#5 D:\Program Files\xampp\htdocs\Laprint\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Program Files\xampp\htdocs\Laprint\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\xampp\htdocs\Laprint\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Program Files\xampp\htdocs\Laprint\system\Commands\Server\rewrite.php(34): require_once('D:\\Program File...')
+#9 {main}

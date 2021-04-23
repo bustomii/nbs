@@ -1,0 +1,65 @@
+CRITICAL - 2021-04-12 22:22:05 --> Class 'App\Models\HomeModels' not found
+#0 D:\Program Files\xampp\htdocs\Laprint\system\CodeIgniter.php(891): App\Controllers\Home->__construct()
+#1 D:\Program Files\xampp\htdocs\Laprint\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->createController()
+#2 D:\Program Files\xampp\htdocs\Laprint\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Program Files\xampp\htdocs\Laprint\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\Program Files\xampp\htdocs\Laprint\system\Commands\Server\rewrite.php(34): require_once('D:\\Program File...')
+#5 {main}
+CRITICAL - 2021-04-12 22:22:19 --> Invalid file: login/read.php
+#0 D:\Program Files\xampp\htdocs\Laprint\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/read.php')
+#1 D:\Program Files\xampp\htdocs\Laprint\system\Common.php(1119): CodeIgniter\View\View->render('login/read', Array, true)
+#2 D:\Program Files\xampp\htdocs\Laprint\app\Controllers\Home.php(21): view('login/read', Array)
+#3 D:\Program Files\xampp\htdocs\Laprint\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#4 D:\Program Files\xampp\htdocs\Laprint\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Program Files\xampp\htdocs\Laprint\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\Laprint\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Program Files\xampp\htdocs\Laprint\system\Commands\Server\rewrite.php(34): require_once('D:\\Program File...')
+#8 {main}
+CRITICAL - 2021-04-12 22:22:53 --> Undefined variable: user
+#0 D:\Program Files\xampp\htdocs\Laprint\app\Views\menu\header.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Program File...', 18, Array)
+#1 D:\Program Files\xampp\htdocs\Laprint\system\View\View.php(246): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\Laprint\system\View\View.php(525): CodeIgniter\View\View->render('menu/header', NULL, true)
+#3 D:\Program Files\xampp\htdocs\Laprint\app\Views\menu\footer.php(47): CodeIgniter\View\View->include('menu/header')
+#4 D:\Program Files\xampp\htdocs\Laprint\system\View\View.php(246): include('D:\\Program File...')
+#5 D:\Program Files\xampp\htdocs\Laprint\system\View\View.php(257): CodeIgniter\View\View->render('menu/footer', Array, true)
+#6 D:\Program Files\xampp\htdocs\Laprint\system\Common.php(1119): CodeIgniter\View\View->render('apps/read', Array, true)
+#7 D:\Program Files\xampp\htdocs\Laprint\app\Controllers\Home.php(21): view('apps/read', Array)
+#8 D:\Program Files\xampp\htdocs\Laprint\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#9 D:\Program Files\xampp\htdocs\Laprint\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\Program Files\xampp\htdocs\Laprint\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Program Files\xampp\htdocs\Laprint\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 D:\Program Files\xampp\htdocs\Laprint\system\Commands\Server\rewrite.php(34): require_once('D:\\Program File...')
+#13 {main}
+CRITICAL - 2021-04-12 22:23:36 --> Undefined variable: cekgrafik
+#0 D:\Program Files\xampp\htdocs\Laprint\app\Views\menu\footer.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Program File...', 156, Array)
+#1 D:\Program Files\xampp\htdocs\Laprint\system\View\View.php(246): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\Laprint\system\View\View.php(257): CodeIgniter\View\View->render('menu/footer', Array, true)
+#3 D:\Program Files\xampp\htdocs\Laprint\system\Common.php(1119): CodeIgniter\View\View->render('apps/read', Array, true)
+#4 D:\Program Files\xampp\htdocs\Laprint\app\Controllers\Home.php(21): view('apps/read', Array)
+#5 D:\Program Files\xampp\htdocs\Laprint\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#6 D:\Program Files\xampp\htdocs\Laprint\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\Program Files\xampp\htdocs\Laprint\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\Laprint\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 D:\Program Files\xampp\htdocs\Laprint\system\Commands\Server\rewrite.php(34): require_once('D:\\Program File...')
+#10 {main}
+CRITICAL - 2021-04-12 23:04:25 --> Invalid file: answer/q2.php
+#0 D:\Program Files\xampp\htdocs\Laprint\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('answer/q2.php')
+#1 D:\Program Files\xampp\htdocs\Laprint\system\Common.php(1119): CodeIgniter\View\View->render('answer/q2', Array, true)
+#2 D:\Program Files\xampp\htdocs\Laprint\app\Controllers\Home.php(32): view('answer/q2', Array)
+#3 D:\Program Files\xampp\htdocs\Laprint\system\CodeIgniter.php(919): App\Controllers\Home->q2()
+#4 D:\Program Files\xampp\htdocs\Laprint\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Program Files\xampp\htdocs\Laprint\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\Laprint\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Program Files\xampp\htdocs\Laprint\system\Commands\Server\rewrite.php(34): require_once('D:\\Program File...')
+#8 {main}
+CRITICAL - 2021-04-12 23:26:13 --> Undefined property: stdClass::$tgl_lahir
+#0 D:\Program Files\xampp\htdocs\Laprint\app\Views\answer\q3.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Program File...', 63, Array)
+#1 D:\Program Files\xampp\htdocs\Laprint\system\View\View.php(246): include('D:\\Program File...')
+#2 D:\Program Files\xampp\htdocs\Laprint\system\Common.php(1119): CodeIgniter\View\View->render('answer/q3', Array, true)
+#3 D:\Program Files\xampp\htdocs\Laprint\app\Controllers\Home.php(43): view('answer/q3', Array)
+#4 D:\Program Files\xampp\htdocs\Laprint\system\CodeIgniter.php(919): App\Controllers\Home->q3()
+#5 D:\Program Files\xampp\htdocs\Laprint\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Program Files\xampp\htdocs\Laprint\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\xampp\htdocs\Laprint\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\Program Files\xampp\htdocs\Laprint\system\Commands\Server\rewrite.php(34): require_once('D:\\Program File...')
+#9 {main}
